@@ -29,3 +29,7 @@ Follow [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) & [Ankur Sin
 ### References
 
 https://github.com/lightaime/camel
+
+### Support
+
+Join our discord https://discord.gg/A6EzvsKX4u to get support
