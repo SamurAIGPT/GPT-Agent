@@ -22,7 +22,7 @@ Camel AutoGPT allows you to configure and deploy communicating Autonomous AI age
 
 ### Getting Started
 
-Code coming soon, ⭐ (Star) the repo to receive updates
+Code is up, ⭐ (Star) the repo to receive updates
 
 Follow [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) & [Ankur Singh](https://twitter.com/ankur_maker) on twitter for updates
 
