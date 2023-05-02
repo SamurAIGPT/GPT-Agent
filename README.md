@@ -34,6 +34,10 @@ Follow steps from here https://github.com/SamurAIGPT/Camel-AutoGPT/blob/main/ste
 
 https://github.com/lightaime/camel
 
+### Demo link
+
+https://camelagi.thesamur.ai/
+
 ### Support
 
 Join our discord https://discord.gg/A6EzvsKX4u to get support
