@@ -26,6 +26,10 @@ Code is up, ⭐ (Star) the repo to receive updates
 
 Follow [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) & [Ankur Singh](https://twitter.com/ankur_maker) on twitter for updates
 
+### How to run ?
+
+Follow steps from here https://github.com/SamurAIGPT/Camel-AutoGPT/blob/main/steps_to_run.md
+
 ### References
 
 https://github.com/lightaime/camel
