@@ -25,8 +25,19 @@ scope = [
     "https://www.googleapis.com/auth/userinfo.profile",
     "openid"
 ]
-google_client_id = os.environ['google_client_id']
-google_client_secret = os.environ['google_client_secret']
+google_client_id = os.environ.get('google_client_id')
+google_client_secret = os.environ.get('google_client_secret')
+
+if not google_client_id or not google_client_secret:
+    print("=" * 60)
+    print("WARNING: Google OAuth credentials not found!")
+    print("Please set the following environment variables:")
+    print("  - google_client_id")
+    print("  - google_client_secret")
+    print("")
+    print("Get these from: https://console.cloud.google.com/apis/credentials")
+    print("See server/.env.example for reference.")
+    print("=" * 60)
 word_limit = 50 # word limit for task brainstorming
 
 rp = Blueprint('rp', __name__)
