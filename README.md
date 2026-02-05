@@ -1,43 +1,105 @@
 # Camel-AutoGPT
 
-You must have seen how powerful AI agents are with AutoGPT/BabyAGI ⚡️
+[![GitHub stars](https://img.shields.io/github/stars/SamurAIGPT/GPT-Agent?style=social)](https://github.com/SamurAIGPT/GPT-Agent/stargazers)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Demo](https://img.shields.io/badge/demo-live-green.svg)](https://camelagi.thesamur.ai/)
 
-Imagine 2 of these agents interacting on a common goal🤯
+**Dual AI Agents Working Together** - Configure and deploy two autonomous AI agents that collaborate to achieve any goal. Watch as they communicate, delegate tasks, and solve problems together.
 
-Camel AutoGPT allows you to configure and deploy communicating Autonomous AI agents. Name your own custom AI characters and have them embark on any goal imaginable 🚀.
+> Imagine the power of AutoGPT/BabyAGI... now picture **two** of these agents working as a team.
 
-### 🎉 Roadmap
+## Demo
 
-* Share agents conversation 🔗
+Try it live: [camelagi.thesamur.ai](https://camelagi.thesamur.ai/)
 
-* Saving agent runs 💾
+## Features
 
-* Prefixed instructor/assistant examples 🧠
+- **Dual Agent System** - Two AI agents collaborate on tasks
+- **Custom Personas** - Name and configure your own AI characters
+- **Goal-Oriented** - Set any goal and watch agents work together
+- **Real-Time Conversation** - View agent-to-agent communication
+- **Web Interface** - Easy-to-use browser-based interface
 
-* Web browsing capabilities 🌐
+## How It Works
 
-* Writing capabilities via a document API 📄
+1. **Configure Agents** - Define two AI personas with names and roles
+2. **Set a Goal** - Describe what you want them to accomplish
+3. **Watch Collaboration** - Agents discuss, plan, and execute together
+4. **Get Results** - Receive the output of their combined efforts
 
-* More Coming soon...
+## Roadmap
 
-### Getting Started
+- [ ] Share agent conversations
+- [ ] Save and replay agent runs
+- [ ] Pre-configured instructor/assistant examples
+- [ ] Web browsing capabilities
+- [ ] Document API for writing tasks
+- [ ] More coming soon...
 
-Code is up, ⭐ (Star) the repo to receive updates
+## Quick Start
 
-Follow [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) & [Ankur Singh](https://twitter.com/ankur_maker) on twitter for updates
+### Prerequisites
 
-### How to run ?
+- Python 3.8+
+- Node.js v18+
+- OpenAI API Key
 
-Follow steps from here https://github.com/SamurAIGPT/Camel-AutoGPT/blob/main/steps_to_run.md
+### Installation
 
-### References
+```bash
+# Clone the repository
+git clone https://github.com/SamurAIGPT/GPT-Agent.git
+cd GPT-Agent
 
-https://github.com/lightaime/camel
+# Follow setup instructions
+cat steps_to_run.md
+```
 
-### Demo link
+See detailed setup: [steps_to_run.md](https://github.com/SamurAIGPT/GPT-Agent/blob/main/steps_to_run.md)
 
-https://camelagi.thesamur.ai/
+## Architecture
 
-### Support
+The system uses the CAMEL (Communicative Agents for Mind Exploration) framework:
 
-Join our discord https://discord.gg/A6EzvsKX4u to get support
+```
+User Goal
+    │
+    ▼
+┌─────────┐     ┌─────────┐
+│ Agent 1 │◄───►│ Agent 2 │
+│(Assist) │     │(Instruct)│
+└─────────┘     └─────────┘
+    │               │
+    └───────┬───────┘
+            ▼
+       Task Output
+```
+
+## Example Use Cases
+
+- **Research Tasks** - One agent researches, another synthesizes
+- **Code Review** - Developer agent writes, reviewer agent critiques
+- **Content Creation** - Writer agent drafts, editor agent refines
+- **Problem Solving** - Analyst agent investigates, strategist agent plans
+
+## References
+
+Built on the CAMEL framework: [lightaime/camel](https://github.com/lightaime/camel)
+
+## Support
+
+Join our Discord: [discord.gg/A6EzvsKX4u](https://discord.gg/A6EzvsKX4u)
+
+## Follow for Updates
+
+- [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11)
+- [Ankur Singh](https://twitter.com/ankur_maker)
+
+## Related Projects
+
+- [AutoGPT](https://github.com/SamurAIGPT/AutoGPT) - Browser version of AutoGPT
+- [EmbedAI](https://github.com/SamurAIGPT/EmbedAI) - Private document QnA
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
